@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/piLeoni/svgcode.svg?branch=master)](https://travis-ci.org/piLeoni/svgcode)
 # svgcode
 A minimal SVG to GCODE converter for 2d operations
 

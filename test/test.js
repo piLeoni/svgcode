@@ -7,7 +7,7 @@ var svgcode = require("../index");
 
 describe("#conversion test", function() {
     const result = svgcode()
-    .loadFile(__dirname + "/test.svg")
+    .loadFile(__dirname + "/helloworld.svg")
     .generateGcode()
     .getGcode();
 
