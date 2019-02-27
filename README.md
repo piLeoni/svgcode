@@ -7,7 +7,7 @@ A minimal SVG to GCODE converter for 2d operations
 
 ## Usage
 
-    var svgcode = require("svgcode");
+    const svgcode = require("svgcode");
 
     const gcode = svgcode()
     .loadFile(__dirname + "test/test.svg")
