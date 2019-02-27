@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+'use strict';
+
 const Gcanvas = require("gcanvas");
 const canvg = require("canvg");
 const fs = require("fs");
