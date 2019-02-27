@@ -16,8 +16,6 @@ A minimal SVG to GCODE converter for 2d operations
     
     console.log(gcode)
   
-  
-  Output should be `35,666`
 
 
 ## Tests
