@@ -1,9 +1,14 @@
 language: node_js
 node_js:
-  - stable
-install:
-  - npm install
+- stable
 
-script:
-  - npm run test
+before_script:
+- npm install -g istanbul
+- npm install coveralls
+- npm install mocha-lcov-reporter
 
+after_script:
+- NODE_ENV=test istanbul cover
+    ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec &&
+    cat ./coverage/lcov.info |
+    ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
