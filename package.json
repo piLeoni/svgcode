@@ -1,14 +1,19 @@
 {
   "name": "svgcode",
   "version": "1.0.0",
-  "description": "",
+  "description": "A minimal SVG to GCODE converter for 2d operations",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["svg", "gcode", "cnc"],
+  "keywords": [
+    "svg",
+    "gcode",
+    "cnc"
+  ],
   "author": "pietro.leoni@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": "piLeoni/svgcode",
   "dependencies": {
     "canvas": "^2.3.1",
     "canvg": "^2.0.0-beta.0",
