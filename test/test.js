@@ -4,6 +4,7 @@
 
 var expect = require("chai").expect;
 var svgcode = require("../index");
+var assert = require('assert');
 
 describe("#conversion test", function() {
     const result = svgcode()
