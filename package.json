@@ -1,6 +1,6 @@
 {
   "name": "svgcode",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A minimal SVG to GCODE converter for 2d operations",
   "main": "index.js",
   "scripts": {
