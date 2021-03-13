@@ -20,7 +20,7 @@
     "canvg": "^2.0.0-beta.0",
     "gcanvas": "0.0.37",
     "jsdom": "^16.5.0",
-    "xmldom": "^0.4.0"
+    "xmldom": "^0.5.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
